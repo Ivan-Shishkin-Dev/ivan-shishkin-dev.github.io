@@ -5,18 +5,18 @@ import FlowingMenu from "../components/FlowingMenu";
 
 const projectItems = [
   {
-    link: "#",
-    text: "Project One",
+    link: "https://github.com/alieldaoushyuci/Construction-Verification",
+    text: "Construction Verification",
     image: "https://picsum.photos/600/400?random=1",
   },
   {
-    link: "#",
-    text: "Project Two",
+    link: "https://github.com/Ivan-Shishkin-Dev/ivan-shishkin-dev.github.io",
+    text: "New Website",
     image: "https://picsum.photos/600/400?random=2",
   },
   {
-    link: "#",
-    text: "Project Three",
+    link: "https://ivan-shishkin-dev.github.io/Old-Website/",
+    text: "Old Website",
     image: "https://picsum.photos/600/400?random=3",
   },
 ];
