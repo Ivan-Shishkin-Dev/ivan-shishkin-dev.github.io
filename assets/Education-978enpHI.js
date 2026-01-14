@@ -1,4 +1,4 @@
-import{r as l,j as e}from"./index-gqFghqiI.js";import{S as D}from"./Section-B_rYLnP2.js";import{a as W}from"./ScrollFloat-B8uIaH5-.js";import{R as H,T as G,P as N,C as E,M as V}from"./Triangle--UM621jO.js";import{E as K}from"./ElectricBorder-CD1cwFS8.js";const Y=`
+import{r as l,j as e}from"./index-Gfj8P0nv.js";import{S as D}from"./Section-bqZ0WA1N.js";import{a as W}from"./ScrollFloat-D9878jKo.js";import{R as H,T as G,P as N,C as E,M as V}from"./Triangle--UM621jO.js";import{E as K}from"./ElectricBorder-BIpBBm8Q.js";const Y=`
 attribute vec2 uv;
 attribute vec2 position;
 
