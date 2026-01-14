@@ -1,0 +1,106 @@
+.App {
+  text-align: center;
+}
+
+/* Smooth scrolling for the entire page */
+/* Note: scroll-snap-type is now in index.css */
+
+.intro {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+.headshot-wrapper {
+  position: relative;
+  width: 280px;
+  height: fit-content;
+  border-radius: 12px;
+  padding: 2px;
+  background: linear-gradient(135deg, #333, #666, #fff, #666, #333);
+  background-size: 300% 300%;
+  animation: gradientRotate 6s ease infinite;
+}
+
+@keyframes gradientRotate {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.headshot {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  display: block;
+}
+
+.intro-text {
+  text-align: left;
+}
+
+.greeting {
+  font-size: 1.5rem;
+  color: #888;
+  margin-bottom: 4px;
+}
+
+.title {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-top: 16px;
+  line-height: 1.1;
+  max-width: 300px;
+  word-wrap: break-word;
+  animation: slideInRight 0.8s ease-out 0.5s both;
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Section styles */
+.section-content {
+  text-align: center;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: #fff;
+}
+
+.section-text {
+  font-size: 1.2rem;
+  color: #aaa;
+  line-height: 1.8;
+}
+
+/* Glass icon button hover effects */
+.glass-icon-btn:hover .glass-icon-bg {
+  transform: rotate(25deg) translate3d(-0.5em, -0.5em, 0.5em);
+}
+
+.glass-icon-btn:hover .glass-icon-front {
+  transform: translate3d(0, 0, 1.5em);
+}
