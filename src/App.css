@@ -96,6 +96,45 @@
   line-height: 1.8;
 }
 
+@media (max-width: 768px) {
+  .section-text {
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+
+  /* Experience page */
+  .experience-title {
+    font-size: 1.2rem !important;
+  }
+  .experience-subtitle {
+    font-size: 0.85rem !important;
+  }
+  .experience-list {
+    font-size: 0.9rem !important;
+  }
+
+  /* Education page */
+  .education-degree {
+    font-size: 1.2rem !important;
+  }
+  .education-school {
+    font-size: 0.85rem !important;
+  }
+  .education-details {
+    font-size: 0.8rem !important;
+  }
+  .education-section-title {
+    font-size: 1rem !important;
+  }
+  .education-course {
+    font-size: 0.85rem !important;
+    padding: 0.75rem 1rem !important;
+  }
+  .education-activity {
+    font-size: 0.85rem !important;
+  }
+}
+
 /* Glass icon button hover effects */
 .glass-icon-btn:hover .glass-icon-bg {
   transform: rotate(25deg) translate3d(-0.5em, -0.5em, 0.5em);

@@ -47,6 +47,7 @@ function ExperienceItem({ item }) {
       }}
     >
       <h3
+        className="experience-title"
         style={{
           color: "#fff",
           fontSize: "1.5rem",
@@ -57,6 +58,7 @@ function ExperienceItem({ item }) {
         {item.title}
       </h3>
       <p
+        className="experience-subtitle"
         style={{
           color: "#aaa",
           fontSize: "1rem",
@@ -67,6 +69,7 @@ function ExperienceItem({ item }) {
         {item.company} • {item.location} • {item.period}
       </p>
       <ul
+        className="experience-list"
         style={{
           color: "#ccc",
           fontSize: "1.1rem",

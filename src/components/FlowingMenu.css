@@ -108,6 +108,10 @@
 @media (max-width: 768px) {
   .menu__item-link {
     font-size: 3vh;
+    white-space: normal;
+    word-break: break-word;
+    padding: 0.5rem 1rem;
+    line-height: 1.2;
   }
 
   .marquee span {

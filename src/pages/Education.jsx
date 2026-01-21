@@ -68,6 +68,7 @@ function Education() {
                 }}
               >
                 <h3
+                  className="education-degree"
                   style={{
                     color: "#fff",
                     fontSize: "1.5rem",
@@ -78,6 +79,7 @@ function Education() {
                   B.S. Computer Science
                 </h3>
                 <p
+                  className="education-school"
                   style={{
                     color: "#aaa",
                     fontSize: "1rem",
@@ -101,6 +103,7 @@ function Education() {
                   </a>
                 </p>
                 <p
+                  className="education-details"
                   style={{
                     color: "#888",
                     fontSize: "0.9rem",
@@ -112,6 +115,7 @@ function Education() {
 
                 <div style={{ marginBottom: "2rem" }}>
                   <h4
+                    className="education-section-title"
                     style={{
                       color: "#fff",
                       fontSize: "1.2rem",
@@ -130,6 +134,7 @@ function Education() {
                     }}
                   >
                     <div
+                      className="education-course"
                       style={{
                         background: "rgba(0, 0, 0, 0.6)",
                         border: "1px solid rgba(255, 255, 255, 0.2)",
@@ -146,6 +151,7 @@ function Education() {
                       Data Structures and Algorithms
                     </div>
                     <div
+                      className="education-course"
                       style={{
                         background: "rgba(0, 0, 0, 0.6)",
                         border: "1px solid rgba(255, 255, 255, 0.2)",
@@ -162,6 +168,7 @@ function Education() {
                       Advanced Programming In Python
                     </div>
                     <div
+                      className="education-course"
                       style={{
                         background: "rgba(0, 0, 0, 0.6)",
                         border: "1px solid rgba(255, 255, 255, 0.2)",
@@ -178,6 +185,7 @@ function Education() {
                       Programming In C++
                     </div>
                     <div
+                      className="education-course"
                       style={{
                         background: "rgba(0, 0, 0, 0.6)",
                         border: "1px solid rgba(255, 255, 255, 0.2)",
@@ -198,6 +206,7 @@ function Education() {
 
                 <div style={{ textAlign: "center" }}>
                   <h4
+                    className="education-section-title"
                     style={{
                       color: "#fff",
                       fontSize: "1.2rem",
@@ -209,6 +218,7 @@ function Education() {
                     Leadership & Activities:
                   </h4>
                   <ul
+                    className="education-activity"
                     style={{
                       fontSize: "1rem",
                       lineHeight: "1.8",
