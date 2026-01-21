@@ -223,21 +223,6 @@ function Education() {
                       Director Of Housing — Sigma Pi (Eta-Upsilon Chapter)
                     </li>
                     <li style={{ color: "#fff", marginBottom: "0.5rem" }}>
-                      ICS Student Council (ICSSC)
-                    </li>
-                    <li style={{ color: "#fff", marginBottom: "0.5rem" }}>
-                      Artificial Intelligence @ UCI
-                    </li>
-                    <li style={{ color: "#fff", marginBottom: "0.5rem" }}>
-                      Claude Builder Club
-                    </li>
-                    <li style={{ color: "#fff", marginBottom: "0.5rem" }}>
-                      Cyber @ UCI
-                    </li>
-                    <li style={{ color: "#fff", marginBottom: "0.5rem" }}>
-                      Hack @ UCI
-                    </li>
-                    <li style={{ color: "#fff", marginBottom: "0.5rem" }}>
                       F1 Tenth @ UCI
                     </li>
                     <li style={{ color: "#fff", marginBottom: "0.5rem" }}>
