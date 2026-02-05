@@ -232,12 +232,6 @@ function Education() {
                     <li style={{ color: "#fff", marginBottom: "0.5rem" }}>
                       Director Of Housing — Sigma Pi (Eta-Upsilon Chapter)
                     </li>
-                    <li style={{ color: "#fff", marginBottom: "0.5rem" }}>
-                      F1 Tenth @ UCI
-                    </li>
-                    <li style={{ color: "#fff", marginBottom: "0.5rem" }}>
-                      ReForm Design Project @ UCI
-                    </li>
                   </ul>
                 </div>
               </div>
