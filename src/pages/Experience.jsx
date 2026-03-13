@@ -12,11 +12,10 @@ const EXPERIENCE_ITEMS = [
     location: "Irvine, CA",
     period: "Oct. 2025 – Present",
     responsibilities: [
-      "Architected and deployed a full-stack mobile compliance platform using React Native and PostgreSQL, enabling real-time verification of worker insurance and certifications for high-stakes construction sites.",
-      "Engineered a secure authentication system with robust password validation and granular access control policies to protect sensitive contractor and worker data.",
-      "Integrated third-party Clearinghouse APIs to perform automated insurance policy validation, reducing manual compliance overhead and ensuring site safety standards.",
-      "Streamlined document management by designing a camera-based upload workflow that utilizes metadata extraction to automate certificate tracking and expiration alerts.",
-      "Optimized media storage by implementing AWS S3 for reliable, scalable document hosting, ensuring high availability of compliance records for on-site audits.",
+      "Co-developing a paid mobile app ($10K contract) for Pacific Coast Industrial Installers that consolidates many types of worker verification — insurance, licensing, forklift, scissor lift, and OSHA certifications — into a single platform, replacing a multi-day process of emails and phone calls with insurance agents.",
+      "Integrating the Canopy Connect API to enable in-app insurance policy verification, removing the need for site managers to manually contact agents and wait days for confirmation.",
+      "Designing the PostgreSQL schema in Supabase and implementing Row Level Security policies to enforce per-role data access, with Supabase Auth handling user authentication.",
+      "Leading a full UI redesign — wireframed in Figma and implemented in React Native with Expo — improving navigation flow and consolidating all verification statuses into a single dashboard view.",
     ],
   },
   {

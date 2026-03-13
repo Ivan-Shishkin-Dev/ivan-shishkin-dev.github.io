@@ -15,8 +15,8 @@ const projectItems = [
     image: "https://picsum.photos/600/400?random=2",
   },
   {
-    link: "https://ivan-shishkin-dev.github.io/Old-Website/",
-    text: "Old Website",
+    link: "https://v0-homepilot.vercel.app/",
+    text: "HomePilot (IrvineHacks 26)",
     image: "https://picsum.photos/600/400?random=3",
   },
 ];

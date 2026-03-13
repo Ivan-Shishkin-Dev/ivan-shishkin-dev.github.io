@@ -1,4 +1,4 @@
-import headshot from "../assets/Ivan Shishkin Headshot.JPG";
+import headshot from "../assets/MainHeadshot.jpg";
 import BlurText from "../components/BlurText";
 import ShinyText from "../components/ShinyText";
 import SpotlightCard from "../components/SpotlightCard";
