@@ -232,6 +232,22 @@ function Education() {
                     <li style={{ color: "#fff", marginBottom: "0.5rem" }}>
                       Director Of Housing — Sigma Pi (Eta-Upsilon Chapter)
                     </li>
+                    <li style={{ color: "#fff", marginBottom: "0.5rem" }}>
+                      <a
+                        href="https://claoc.org/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        style={{
+                          color: "#809fff",
+                          textDecoration: "underline",
+                          transition: "color 0.3s ease",
+                        }}
+                        onMouseEnter={(e) => (e.target.style.color = "#a8bfff")}
+                        onMouseLeave={(e) => (e.target.style.color = "#809fff")}
+                      >
+                        CLAOC Mentorship Program
+                      </a>
+                    </li>
                   </ul>
                 </div>
               </div>
